@@ -1,0 +1,75 @@
+*{
+  padding: 0;
+  margin: 0;
+box-sizing: border-box;
+
+}
+body{
+  background-color: rgb(68, 66, 66);
+}
+.calc{
+
+  margin:30px auto;
+  height: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+
+
+}
+.outpt{
+  width: 100%;
+  height: 30%;
+  background-color: rgb(145, 142, 138);
+  color: white;
+}
+.outpt .a,.b{
+  width: 100%;
+  height: 50%;
+  font-size: 17px;
+  padding: 10px;
+  word-wrap: break-word;
+
+}
+.input{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.input button,.inline{
+  padding: 5px;
+flex: 1 1 24%;
+border: 1px solid rgb(131, 125, 125);
+  outline: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  border-radius: 3px;
+  
+}
+
+.inline.flex{
+  flex: 0 0 50%;
+}
+
+.click{
+  pointer-events: none;
+}
+.num{
+  background-color: rgb(51, 105, 136);
+}
+.dot{
+  background-color: rgb(19, 60, 61);
+}
+.oper{
+  background-color: rgb(91, 50, 110);
+
+}
+.inline{
+  display: inline;
+  background-color: rgb(95, 16, 16);
+  text-align: center;
+}
+ .alert-massge{
+   display: none;
+ }
